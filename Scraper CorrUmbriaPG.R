@@ -81,4 +81,4 @@ CorrUmbriaPG <- CorrUmbriaPG |>
 
 # Export corpus as RDS
 
-write_rds(CorrUmbriaPG, 'CorrUmbriaPG.RDS')
+write_rds(CorrUmbriaPG, 'Rawdata/CorrUmbriaPG.RDS')
