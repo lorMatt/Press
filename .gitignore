@@ -48,5 +48,6 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
-# RDS database (too heavy)
+# big RDS databases (too heavy)
 Corpus.RDS
+Rawdata/PGToday.RDS
