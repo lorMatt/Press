@@ -34,8 +34,9 @@ TRinrete <- readRDS('Rawdata/TRinrete.RDS') |>
 Corpus <- CorrUmbria |> 
   bind_rows(PGToday, TRinrete)
 
-## Write corpus as RDS
+## Write corpus as RDS and csv
 write_rds(Corpus, 'Corpus.RDS')
+# write_csv(Corpus, 'Corpus.csv')
 
 # Descriptives -----------------------------------------------------------------
 ## graphics ----
